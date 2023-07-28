@@ -1,0 +1,3 @@
+Based on my observations from the tests, the function f(x) behaves as follows:
+
+The function will take as input a string of any type (alphabetical, numerical, symbol, or a combination of all). If the string length is greater than 1, the function will insert an 'A' after the first character of the input string. If the input string is of length 1 or empty, it appends 'A' at the end. Therefore, an input of "" will return "A", single character strings like "a" will return "Aa", and multiple characters strings like "abc" will return "aAbc".
